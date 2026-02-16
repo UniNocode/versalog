@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versalog Puertas Industriales - Chile</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@700&family=Inter:wght@400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero__container">
+            <div class="hero__col hero__col--heading">
+                <h1>Puertas Industriales y Andenes para la Lógica de su Proceso</h1>
+            </div>
+
+            <div class="hero__col hero__col--content">
+                <div class="hero__text-group">
+                    <p>La continuidad de tu planta protegida con puertas industriales y equipos de andén correctos desde
+                        el inicio. Eliminamos errores costosos antes de instalar.</p>
+                </div>
+
+                <div class="hero__actions">
+                <a href="#" class="cta-button js-open-modal" data-modal="contact-modal">Contáctanos</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact-section">
+        <div class="container contact__container">
+            <!-- Row: Intro and Details -->
+            <div class="contact__content">
+                <!-- Into Column -->
+                <div class="contact__intro">
+                    <div class="contact__tagline eyebrow">CONTACTO</div>
+                    <div class="contact__intro-body">
+                        <h2>Hablemos de tu Operación</h2>
+                        <p class="contact__intro-text">Cuéntanos qué necesitas y nos ponemos en marcha</p>
+                    </div>
+                </div>
+
+                <!-- Contact Details Column (Rows of Info) -->
+                <div class="contact__details">
+                    <!-- Item 1: Mail -->
+                    <article class="contact__item">
+                        <div class="contact__icon">
+                            <svg viewBox="0 0 21 17" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M1.20312 1.89746V15.1016H19.0957V2.29395L18.3203 2.80371L10.3643 8.04199C10.3039 8.07364 10.2515 8.09931 10.2061 8.11719C10.2029 8.11818 10.1861 8.12305 10.1494 8.12305C10.1121 8.12304 10.0955 8.11806 10.0928 8.11719C10.0471 8.09922 9.99432 8.07387 9.93359 8.04199L2.20312 2.95117V2.55176L9.87598 7.57715L10.1494 7.75684L10.4229 7.57812L18.7695 2.12793L19.7803 1.4668C19.7959 1.5446 19.8047 1.625 19.8047 1.70898V14.6016C19.8047 14.9228 19.6924 15.1963 19.4434 15.4443C19.1945 15.6924 18.9197 15.8047 18.5957 15.8047H1.70312C1.38141 15.8047 1.10823 15.6923 0.860352 15.4443L0.773438 15.3506C0.58577 15.1278 0.5 14.8831 0.5 14.6016V1.70898C0.500017 1.62046 0.509066 1.53575 0.526367 1.4541L1.20312 1.89746ZM1.70312 0.5H18.5957C18.9191 0.5 19.1933 0.613174 19.4424 0.862305H19.4434C19.553 0.971962 19.6346 1.08743 19.6934 1.20898H0.610352C0.669035 1.08699 0.750804 0.971226 0.860352 0.861328H0.861328C1.1093 0.612456 1.38205 0.500029 1.70312 0.5Z"/>
+                            </svg>
+                        </div>
+                        <div class="contact__info">
+                            <p class="contact__info-title">Cotizar Puerta o Andén</p>
+                            <a href="#" class="contact__link js-open-modal" data-modal="cotizacion-modal">Cotizar</a>
+                        </div>
+                    </article>
+
+                    <!-- Item 2: Call -->
+                    <article class="contact__item">
+                        <div class="contact__icon">
+                            <svg viewBox="0 0 19 19" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M1.26855 0.5H4.76855C4.95229 0.500011 5.07991 0.55472 5.18457 0.65332C5.27807 0.741412 5.35658 0.855859 5.41504 1.00684L5.4668 1.16992L6.13184 4.18359C6.1645 4.41538 6.15698 4.60038 6.12207 4.74707C6.09092 4.87804 6.02914 4.98631 5.92969 5.08105L5.92285 5.08691L3.40527 7.57031L3.12598 7.8457L3.32617 8.18164C3.75291 8.89877 4.20639 9.57129 4.68652 10.1973C5.16934 10.8268 5.70553 11.4248 6.29395 11.9922C6.90732 12.6254 7.54853 13.2006 8.21777 13.7158C8.89293 14.2356 9.59837 14.6906 10.334 15.0801L10.665 15.2549L10.9258 14.9873L13.3311 12.5195L13.3408 12.5088C13.4804 12.3574 13.627 12.2663 13.7832 12.2197C13.9142 12.1809 14.044 12.1673 14.1748 12.1768L14.3066 12.1943L17.127 12.8184C17.2927 12.8645 17.4245 12.9359 17.5312 13.0303L17.6309 13.1328C17.7476 13.2738 17.8047 13.4317 17.8047 13.626V17.0361C17.8047 17.2731 17.7305 17.4447 17.5869 17.5869C17.4405 17.7319 17.2676 17.8047 17.0361 17.8047C15.161 17.8046 13.2407 17.3544 11.2715 16.4395C9.30334 15.525 7.47245 14.2244 5.7793 12.5312C4.19223 10.9442 2.9492 9.23511 2.04492 7.4043L1.86816 7.03613C0.951129 5.06465 0.5 3.14535 0.5 1.27441C0.500013 1.09656 0.541272 0.954083 0.623047 0.833008L0.71875 0.71875C0.862804 0.573905 1.03455 0.5 1.26855 0.5Z"/>
+                            </svg>
+                        </div>
+                        <div class="contact__info">
+                            <p class="contact__info-title">Servicio Técnico</p>
+                            <a href="tel:+56912345678" class="contact__link">+56 9 1234 5678</a>
+                        </div>
+                    </article>
+
+                    <!-- Item 3: Navigation (Matches CSS "Location" slot essentially) -->
+                    <article class="contact__item">
+                        <div class="contact__icon">
+                            <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M22.205078 2A1.0001 1.0001 0 0 0 21.21875 2.8378906L20.246094 8.7929688C19.076509 9.1331971 17.961243 9.5922728 16.910156 10.164062L11.996094 6.6542969A1.0001 1.0001 0 0 0 10.708984 6.7597656L6.8183594 10.646484A1.0001 1.0001 0 0 0 6.7070312 11.927734L10.164062 16.873047C9.583454 17.930271 9.1142098 19.051824 8.765625 20.232422L2.8359375 21.21875A1.0001 1.0001 0 0 0 2.0019531 22.205078L2.0019531 27.705078A1.0001 1.0001 0 0 0 2.8261719 28.691406L8.7597656 29.742188C9.1064607 30.920739 9.5727226 32.043065 10.154297 33.101562L6.6542969 37.998047A1.0001 1.0001 0 0 0 6.7597656 39.285156L10.648438 43.175781A1.0001 1.0001 0 0 0 11.927734 43.289062L16.882812 39.820312C17.936999 40.39548 19.054994 40.857928 20.228516 41.201172L21.21875 47.164062A1.0001 1.0001 0 0 0 22.205078 48L27.705078 48A1.0001 1.0001 0 0 0 28.691406 47.173828L29.751953 41.1875C30.920633 40.838997 32.033372 40.369697 33.082031 39.791016L38.070312 43.291016A1.0001 1.0001 0 0 0 39.351562 43.179688L43.240234 39.287109A1.0001 1.0001 0 0 0 43.34375 37.996094L39.787109 33.058594C40.355783 32.014958 40.813915 30.908875 41.154297 29.748047L47.171875 28.693359A1.0001 1.0001 0 0 0 47.998047 27.707031L47.998047 22.207031A1.0001 1.0001 0 0 0 47.160156 21.220703L41.152344 20.238281C40.80968 19.078827 40.350281 17.974723 39.78125 16.931641L43.289062 11.933594A1.0001 1.0001 0 0 0 43.177734 10.652344L39.287109 6.7636719A1.0001 1.0001 0 0 0 37.996094 6.6601562L33.072266 10.201172C32.023186 9.6248101 30.909713 9.1579916 29.738281 8.8125L28.691406 2.828125A1.0001 1.0001 0 0 0 27.705078 2H22.205078ZM25 17C20.593567 17 17 20.593567 17 25S20.593567 33 25 33 33 29.406433 33 25 29.406433 17 25 17Z"/>
+                            </svg>
+                        </div>
+                        <div class="contact__info">
+                            <p class="contact__info-title">Repuestos</p>
+                            <a href="#" class="contact__link">Tienda de Repuestos</a>
+                        </div>
+                    </article>
+            </div>
+        </div>
+        </div>
+</section>
+
+    <!-- Door Types Section -->
+
+<section class="section section--door-types">
+    <div class="container">
+        <header class="section__header section__header--center">
+            <h2>TIPOS DE PUERTAS</h2>
+        </header>
+
+        <div class="door-types js-carousel">
+            <button class="door-types__arrow door-types__arrow--prev" type="button" aria-label="Anterior">
+                ‹
+            </button>
+
+            <div class="door-types__viewport js-carousel-viewport">
+                <div class="door-types__track">
+                    <a href="#puertas-seccionales" class="door-type-card js-carousel-item">
+                        <div class="door-type-card__image">
+                            <img src="puerta-seccional.jpg" alt="Puerta Seccional">
+                        </div>
+                        <div class="door-type-card__content">
+                            <h3>Puertas Seccionales</h3>
+                            <p>Máxima eficiencia espacial y aislamiento térmico</p>
+                        </div>
+                    </a>
+
+                    <a href="#puertas-enrollables" class="door-type-card js-carousel-item">
+                        <div class="door-type-card__image">
+                            <img src="puerta-enrollable.jpg" alt="Puerta Enrollable">
+                        </div>
+                        <div class="door-type-card__content">
+                            <h3>Puertas Enrollables</h3>
+                            <p>Diseño compacto para espacios reducidos</p>
+                        </div>
+                    </a>
+
+                    <a href="#puertas-rapidas" class="door-type-card js-carousel-item">
+                        <div class="door-type-card__image">
+                            <img src="puerta-rapida.jpg" alt="Puerta Rápida">
+                        </div>
+                        <div class="door-type-card__content">
+                            <h3>Puertas Rápidas</h3>
+                            <p>Alta velocidad para flujo continuo</p>
+                        </div>
+                    </a>
+
+                    <a href="#puertas-cortafuego" class="door-type-card js-carousel-item">
+                        <div class="door-type-card__image">
+                            <img src="puerta-cortafuego.jpg" alt="Puerta Cortafuego">
+                        </div>
+                        <div class="door-type-card__content">
+                            <h3>Puertas Cortafuego</h3>
+                            <p>Protección certificada contra incendios</p>
+                        </div>
+                    </a>
+
+                    <a href="#puertas-frigorificas" class="door-type-card js-carousel-item">
+                        <div class="door-type-card__image">
+                            <img src="puerta-frigorifica.jpg" alt="Puerta Frigorífica">
+                        </div>
+                        <div class="door-type-card__content">
+                            <h3>Puertas Frigoríficas</h3>
+                            <p>Hermeticidad para cadena de frío</p>
+                        </div>
+                    </a>
+
+                    <a href="#puertas-batientes" class="door-type-card js-carousel-item">
+                        <div class="door-type-card__image">
+                            <img src="puerta-batiente.jpg" alt="Puerta Batiente">
+                        </div>
+                        <div class="door-type-card__content">
+                            <h3>Puertas Batientes</h3>
+                            <p>Acceso controlado para zonas específicas</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <button class="door-types__arrow door-types__arrow--next" type="button" aria-label="Siguiente">
+                ›
+            </button>
+        </div>
+
+        <div class="door-types__dots" aria-hidden="true">
+            <span class="door-types__dot door-types__dot--active"></span>
+            <span class="door-types__dot"></span>
+            <span class="door-types__dot"></span>
+            <span class="door-types__dot"></span>
+            <span class="door-types__dot"></span>
+            <span class="door-types__dot"></span>
+        </div>
+    </div>
+</section>
+
+    <!-- Stack Section -->
+
+    <section class="section--stack">
+        <div class="section--stack__container">
+            <div class="section__content--stack">
+                <header class="section__column section__column--heading">
+                    <h2>
+                        Proteja el Ritmo de su Operación sin Interrupciones Costosas
+                    </h2>
+                </header>
+
+                <div class="section__column section__column--body">
+                    <p> Con accesos diseñados para su realidad productiva, asegura continuidad operacional y reduce
+                        costos ocultos.</p> <p>Nuestra selección técnica garantiza que invierte lo justo y necesario para la
+                        lógica de su producción: equipos que mantienen su línea activa, cumplen normativas y optimizan
+                        consumo energético cuando lo requiere.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Value Section -->
+
+    <section class="section section--value">
+        <div class="container">
+            <div class="section__content section__content--value">
+                <header class="section__column section__column--value-heading">
+                    <h2>LA SOLUCIÓN TÉCNICA JUSTA PARA TU OPERACIÓN</h2>
+                </header>
+
+                <div class="section__column section__column--value-body">
+                    <p class="body body--lead">
+                        Nuestro servicio garantiza la puerta correcta que responde al flujo de tu operación real.
+                    </p>
+                    <p class="body body--lead">
+                        La oferta dual, puertas de fabricación nacional y representantes de marcas globales, garantiza
+                        que la tenemos.
+                    </p>
+
+                    <div class="value-grid">
+                        <article class="value-item">
+                            <div class="value-item__icon" aria-hidden="true"></div>
+                            <div class="value-item__content">
+                                <h3>Diagnóstico Técnico</h3>
+                                <p class="body body--strong">
+                                    Entendemos tu operación y especificamos exactamente qué necesitas. No se trata de
+                                    vender una puerta, se trata de integrar la solución correcta a tu flujo productivo.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="value-item">
+                            <div class="value-item__icon" aria-hidden="true"></div>
+                            <div class="value-item__content">
+                                <h3>Flexibilidad de Suministro</h3>
+                                <p class="body body--strong">
+                                    Fabricamos o importamos según especificación, operación y presupuesto. Tenemos la
+                                    capacidad de responder con exactitud a tus requerimientos técnicos y financieros.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Brands Section -->
+
+    <section class="section section--brands">
+        <div class="container">
+            <header class="section__header section__header--center">
+                <h2>NUESTRAS MARCAS</h2>
+            </header>
+
+            <div class="brands js-carousel">
+                <button class="brands__arrow brands__arrow--prev" type="button" aria-label="Anterior">
+                    ‹
+                </button>
+
+                <div class="brands__viewport js-carousel-viewport">
+                    <div class="brands__track">
+                        <div class="brand-card js-carousel-item">
+                          <a href="https://www.andreu.es" target="_blank" rel="noopener noreferrer">
+                            <img src="C:\Users\Erwin\OneDrive\Documentos\Versalog-repuestos\marcas\andreu.webp"
+                            alt="Logo puertas industriales andreu"
+                            class="brand-card__image">
+                          </a>
+                        </div>
+                        <div class="brand-card js-carousel-item">
+                            <a href="https://www.BlueGiant.com" target="_blank" rel="noopener noreferrer">
+                            <img src="C:\Users\Erwin\OneDrive\Documentos\Versalog-repuestos\marcas\blue-giant-final.webp"
+                            alt="Logo puertas industriales blue-giant"
+                            class="brand-card__image">
+                            </a>
+                        </div>
+                        <div class="brand-card js-carousel-item">
+                            <a href="https://www.controlsa.com" target="_blank" rel="noopener noreferrer">
+                            <img src="C:\Users\Erwin\OneDrive\Documentos\Versalog-repuestos\marcas\controlsa.webp"
+                            alt="Logo puertas industriales controlsa"
+                            class="brand-card__image">
+                            </a>
+                        </div>
+                        <div class="brand-card js-carousel-item">
+                            <a href="https://www.dan-doors.dk" target="_blank" rel="noopener noreferrer">
+                            <img src="C:\Users\Erwin\OneDrive\Documentos\Versalog-repuestos\marcas\dan-doors.webp"
+                            alt="Logo puertas industriales dandoors"
+                            class="brand-card__image">
+                            </a>
+                        </div>
+                        <div class="brand-card js-carousel-item">
+                            <a href="https://www.alpinedoors.com" target="_blank" rel="noopener noreferrer">
+                            <img src="C:\Users\Erwin\OneDrive\Documentos\Versalog-repuestos\marcas\alpine.webp"
+                            alt="Logo puertas industriales alpine"
+                            class="brand-card__image">
+                            </a>
+                        </div>
+                        <div class="brand-card js-carousel-item">
+                            <img src="C:\Users\Erwin\OneDrive\Documentos\Versalog-repuestos\marcas\doortec.webp"
+                            alt="Logo puertas industriales doortec"
+                            class="brand-card__image">
+                        </div>
+                        <div class="brand-card js-carousel-item">
+                            <a href="https://www.dynacodoor.com" target="_blank" rel="noopener noreferrer">
+                            <img src="C:\Users\Erwin\OneDrive\Documentos\Versalog-repuestos\marcas\nergeco.webp"
+                            alt="Logo puertas industriales nergeco"
+                            class="brand-card__image">
+                            </a>
+                        </div>
+                        <div class="brand-card js-carousel-item">
+                            <a href="https://www.bmpdoors.com" target="_blank" rel="noopener noreferrer">
+                            <img src="C:\Users\Erwin\OneDrive\Documentos\Versalog-repuestos\marcas\BMP.webp"
+                            alt="Logo puertas industriales bmp"
+                            class="brand-card__image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="brands__arrow brands__arrow--next" type="button" aria-label="Siguiente">
+                    ›
+                </button>
+            </div>
+
+            <div class="brands__dots" aria-hidden="true">
+                <span class="brands__dot brands__dot--active"></span>
+                <span class="brands__dot"></span>
+                <span class="brands__dot"></span>
+                <span class="brands__dot"></span>
+                <span class="brands__dot"></span>
+                <span class="brands__dot"></span>
+                <span class="brands__dot"></span>
+                <span class="brands__dot"></span>
+            </div>
+        </div>
+    </section>
+
+     <!-- Service Section -->
+
+    <section class="section section--services" id="industrias">
+    <div class="container">
+        <header class="section__header section__header--center">
+            <h2>SOLUCIONES ESPECIALIZADAS POR INDUSTRIA</h2>
+        </header>
+
+        <div class="services-grid">
+            <!-- COLUMNA IZQUIERDA -->
+            <div class="services-grid__left">
+                <!-- Card grande: Logística -->
+                <article class="service-card service-card--large">
+                    <figure class="service-card__media">
+                        <img src="C:\Users\Erwin\OneDrive\Documentos\Versalog-repuestos\images\solucioneslogistica.png" alt="Muelles de carga en centro de distribución" />
+                    </figure>
+                    <div class="service-card__body">
+                        <div class="service-card__content">
+                            <h3>LOGÍSTICA Y CENTROS DE DISTRIBUCIÓN</h3>
+                            <p>Equipamos sus muelles con niveladores y sellos de andén diseñados para soportar el flujo constante sin interrupciones.</p>
+                        </div>
+                        <div class="service-card__actions">
+                            <button type="button" class="button button--ghost">Button</button>
+                            <button type="button" class="button button--link">
+                                Button
+                                <span aria-hidden="true">›</span>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card mixta: Seguridad -->
+                <article class="service-card service-card--mixed">
+                    <figure class="service-card__media service-card__media--side">
+                        <img src="C:\Users\Erwin\OneDrive\Documentos\Versalog-repuestos\images\puertaincendio.png" alt="Puerta cortafuego" />
+                    </figure>
+                    <div class="service-card__body">
+                        <div class="service-card__content">
+                            <h4>SEGURIDAD Y PROTECCIÓN CORTAFUEGO</h4>
+                            <p>Barreras y puertas con certificación técnica que aseguran la protección de sus zonas críticas frente al fuego.</p>
+                        </div>
+                        <div class="service-card__actions">
+                            <button type="button" class="button button--link">
+                                Button
+                                <span aria-hidden="true">›</span>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- COLUMNA DERECHA -->
+            <div class="services-grid__right">
+                <!-- Cards pequeñas superiores -->
+                <div class="service-cards-stack">
+                    <article class="service-card service-card--compact">
+                        <div class="service-card__body">
+                            <div class="service-card__icon" aria-hidden="true">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 2L2 7v10c0 5.5 3.8 9.7 10 11 6.2-1.3 10-5.5 10-11V7l-10-5z"/>
+                                </svg>
+                            </div>
+                            <div class="service-card__content">
+                                <h4>FARMACÉUTICA Y PROCESOS</h4>
+                                <p>Hermeticidad total que bloquea vectores y protege su certificación de exportación.</p>
+                            </div>
+                            <div class="service-card__actions">
+                                <button type="button" class="button button--link">
+                                    Button
+                                    <span aria-hidden="true">›</span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="service-card service-card--compact">
+                        <div class="service-card__body">
+                            <div class="service-card__icon" aria-hidden="true">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                    <polyline points="14 2 14 8 20 8"/>
+                                </svg>
+                            </div>
+                            <div class="service-card__content">
+                                <h4>INDUSTRIA PESADA Y GRANDES INSTALACIONES</h4>
+                                <p>Durabilidad estructural. Ingeniería para vanos de gran escala y alto tráfico donde la robustez del equipo es la única garantía de continuidad.</p>
+                            </div>
+                            <div class="service-card__actions">
+                                <button type="button" class="button button--link">
+                                    Button
+                                    <span aria-hidden="true">›</span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Card grande inferior: Alimentos -->
+                <article class="service-card service-card--large">
+                    <figure class="service-card__media">
+                        <img src="C:\Users\Erwin\OneDrive\Documentos\Versalog-repuestos\images\alimentos.png" alt="Cámaras de frío y alimentos" />
+                    </figure>
+                    <div class="service-card__body">
+                        <div class="service-card__content">
+                            <h3>ALIMENTOS Y CADENA DE FRÍO</h3>
+                            <p>Puertas monobloc y componentes de acero inoxidable que resisten lavados intensos y evitan la acumulación de contaminantes.</p>
+                        </div>
+                        <div class="service-card__actions">
+                            <button type="button" class="button button--ghost">Button</button>
+                            <button type="button" class="button button--link">
+                                Button
+                                <span aria-hidden="true">›</span>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Método -->
+
+ <section id="servicios" class="section section--method">
+    <div class="container method-grid">
+        
+        <header class="method__header">
+            <div class="method__tagline eyebrow">
+                <span>método</span>
+            </div>
+            <h2>INGENIERÍA DE SELECCIÓN PARA FLUJOS ÓPTIMOS</h2>
+            <div class="method__actions">
+                <button type="button" class="button button--ghost">Explorar</button>
+            </div>
+        </header>
+
+        <div class="method-accordion">
+            
+            <div class="method-item">
+                <h4 class="method-accordion__heading">
+                    <button type="button" class="method-accordion__button" aria-expanded="true" aria-controls="method-p1">
+                        <span class="method-number">01</span> Lógica de tu Proceso
+                    </button>
+                </h4>
+                <div id="method-p1" class="method-accordion__content">
+                    <p>Estudiamos tu proceso operacional completo: materiales, equipos, frecuencia.</p>
+                    <p class="method-step__highlight">Tu puerta debe funcionar al ritmo de tu producción.</p>
+                </div>
+            </div>
+
+            <div class="method-item">
+                <h4 class="method-accordion__heading">
+                    <button type="button" class="method-accordion__button" aria-expanded="false" aria-controls="method-p2">
+                        <span class="method-number">02</span> Entorno y Normativa
+                    </button>
+                </h4>
+                <div id="method-p2" class="method-accordion__content">
+                    <p>Evaluamos condiciones ambientales de operación y normativas aplicables.</p>
+                    <p class="method-step__highlight">Los materiales definen viabilidad operacional.</p>
+                </div>
+            </div>
+
+            <div class="method-item">
+                <h4 class="method-accordion__heading">
+                    <button type="button" class="method-accordion__button" aria-expanded="false" aria-controls="method-p3">
+                        <span class="method-number">03</span> Inversión que Perdura
+                    </button>
+                </h4>
+                <div id="method-p3" class="method-accordion__content">
+                    <p>Transparencia total: te decimos si algo es insuficiente o excesivo.</p>
+                    <p class="method-step__highlight">Transparencia total en cada recomendación.</p>
+                </div>
+            </div>
+
+            <div class="method-item">
+                <h4 class="method-accordion__heading">
+                    <button type="button" class="method-accordion__button" aria-expanded="false" aria-controls="method-p4">
+                        <span class="method-number">04</span> Equipo que Funciona
+                    </button>
+                </h4>
+                <div id="method-p4" class="method-accordion__content">
+                    <p>Entregamos el modelo exacto según diagnóstico y seguridad integrada.</p>
+                    <p class="method-step__highlight">Recibes la respuesta exacta para tu operación real.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+     <!-- Experts Section -->
+
+    <section id="nosotros" class="section section--experts">
+        <div class="container">
+            <header class="section__header section__header--center">
+                <h2>EXPERIENCIA DETRÁS DE VERSALOG</h2>
+            </header>
+
+            <div class="experts">
+                <article class="expert-card">
+                    <figure class="expert-card__media">
+                        <img src="C:\Users\Erwin\OneDrive\Documentos\Versalog-repuestos\images\experto.png" alt="Retrato de Werner Picker B." />
+                    </figure>
+
+                    <div class="expert-card__content">
+                        <div class="expert-card__title">
+                            <h3>Werner Picker B.</h3>
+                            <p class="expert-card__role">Fundador y Director de Operaciones</p>
+                        </div>
+
+                        <p class="expert-card__bio">
+                            30 años en dirección de plantas y diseño de soluciones. Entiende que en la industria, cada
+                            minuto cuenta.
+                        </p>
+
+                        <p class="expert-card__email">
+                            <a href="mailto:werner@versalog.cl">werner@versalog.cl</a>
+                        </p>
+                    </div>
+                </article>
+
+                <article class="expert-card">
+                    <figure class="expert-card__media">
+                        <div class="expert-card__placeholder" aria-hidden="true"></div>
+                    </figure>
+
+                    <div class="expert-card__content">
+                        <div class="expert-card__title">
+                            <h3>Francisco Merlet V.</h3>
+                            <p class="expert-card__role">Gerente Comercial</p>
+                        </div>
+
+                        <p class="expert-card__bio">
+                            31 años en la industria, reconocido por su experiencia técnica. Propone la solución que tu
+                            operación realmente exige, priorizando la inversión correcta. Es tu representante dentro de
+                            Versalog.
+                        </p>
+
+                        <p class="expert-card__email">
+                            <a href="mailto:francisco@versalog.cl">francisco@versalog.cl</a>
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+     <!-- Testimonials Section -->
+
+    <section class="section section--testimonials">
+        <div class="container">
+            <header class="section__header section__header--left">
+                <h2>LO QUE NUESTROS<br>CLIENTES LOGRAN</h2>
+            </header>
+
+            <div class="testimonials-wrapper js-carousel">
+                <button class="testimonials__nav testimonials__nav--prev" type="button" aria-label="Anterior">
+                ‹
+            </button>
+            <div class="testimonials js-carousel-viewport">
+                <article class="testimonial-card js-carousel-item">
+                    <header class="testimonial-card__header">
+                        <div class="testimonial-card__logo">Webflow</div>
+                    </header>
+
+                    <p class="testimonial-card__quote">
+                        “Las puertas de Versalog cambiaron cómo trabajamos. Ahora todo fluye sin interrupciones.”
+                    </p>
+
+                    <div class="testimonial-card__author">
+                        <div class="testimonial-card__avatar">
+                            <img src="avatar-carlos.jpg" alt="Carlos Mendoza">
+                        </div>
+                        <div class="testimonial-card__author-info">
+                            <p class="testimonial-card__name">Carlos Mendoza</p>
+                            <p class="testimonial-card__role">Gerente, Logística Sur</p>
+                        </div>
+                    </div>
+
+                    <a href="#" class="testimonial-card__link">
+                        Ver caso <span aria-hidden="true">›</span>
+                    </a>
+                </article>
+
+                <article class="testimonial-card js-carousel-item">
+                    <header class="testimonial-card__header">
+                        <div class="testimonial-card__logo">Relume</div>
+                    </header>
+
+                    <p class="testimonial-card__quote">
+                        “Instalación rápida, servicio impecable. Exactamente lo que necesitábamos para nuestra
+                        operación.”
+                    </p>
+
+                    <div class="testimonial-card__author">
+                        <div class="testimonial-card__avatar">
+                            <img src="avatar-maria.jpg" alt="María González">
+                        </div>
+                        <div class="testimonial-card__author-info">
+                            <p class="testimonial-card__name">María González</p>
+                            <p class="testimonial-card__role">Directora, Distribución Central</p>
+                        </div>
+                    </div>
+
+                    <a href="#" class="testimonial-card__link">
+                        Ver caso <span aria-hidden="true">›</span>
+                    </a>
+                </article>
+
+                <article class="testimonial-card js-carousel-item">
+                    <header class="testimonial-card__header">
+                        <div class="testimonial-card__logo">Webflow</div>
+                    </header>
+
+                    <p class="testimonial-card__quote">
+                        “Después de años con otras marcas, Versalog fue la mejor decisión que tomamos.”
+                    </p>
+
+                    <div class="testimonial-card__author">
+                        <div class="testimonial-card__avatar">
+                            <img src="avatar-roberto.jpg" alt="Roberto Flores">
+                        </div>
+                        <div class="testimonial-card__author-info">
+                            <p class="testimonial-card__name">Roberto Flores</p>
+                            <p class="testimonial-card__role">Propietario, Almacenes Flores</p>
+                        </div>
+                    </div>
+
+                    <a href="#" class="testimonial-card__link">
+                        Ver caso <span aria-hidden="true">›</span>
+                    </a>
+                </article>
+            </div>
+            <button class="testimonials__nav testimonials__nav--next" aria-label="Siguiente">›</button>
+            </div>
+        </div>
+    </section>
+
+     <!-- Clients Section -->
+
+    <section class="section section--clients">
+        <div class="container">
+            <header class="section__header section__header--center">
+                <h2 class="clients__heading">Nuestros clientes</h2>
+            </header>
+
+            <div class="clients__logos">
+                <div class="clients__track">
+                    <div class="client-logo">Webflow</div>
+                    <div class="client-logo">Relume</div>
+                    <div class="client-logo">Webflow</div>
+                    <div class="client-logo">Relume</div>
+                    <div class="client-logo">Webflow</div>
+                    <div class="client-logo">Relume</div>
+                    <div class="client-logo">Webflow</div>
+                    <div class="client-logo">Relume</div>
+                    <div class="client-logo">Webflow</div>
+                    <div class="client-logo">Relume</div>
+                    <div class="client-logo">Webflow</div>
+                    <div class="client-logo">Relume</div>
+
+                    <!-- duplicado para loop suave -->
+                    <div class="client-logo">Webflow</div>
+                    <div class="client-logo">Relume</div>
+                    <div class="client-logo">Webflow</div>
+                    <div class="client-logo">Relume</div>
+                    <div class="client-logo">Webflow</div>
+                    <div class="client-logo">Relume</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- CTA Section -->
+
+    <section class="final-cta">
+        <div class="container">
+            <div class="final-cta__content">
+                <h2>
+                    ¿TUS ACCESOS<br>
+                    SON PARTE DEL PROCESO<br>
+                    O UN CUELLO DE BOTELLA?
+                </h2>
+
+                <p>
+                    Solicita diagnóstico técnico. Especificamos la puerta o andén correcto para tu operación.
+                </p>
+
+                <a href="#contacto" class="cta-button">
+                    Consultar
+                </a>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer Section -->
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <div class="footer__logo">Versalog</div>
+
+                    <div class="footer__info">
+                        <div class="footer__block">
+                            <p class="footer__label">Dirección</p>
+                            <p class="footer__text">Santiago, Chile</p>
+                        </div>
+
+                        <div class="footer__block">
+                            <p class="footer__label">Contacto</p>
+                            <div class="footer__contacts">
+                                <a href="tel:+5620000000" class="footer__link">+56 2 000 0000</a>
+                                <a href="mailto:info@versalog.cl" class="footer__link">info@versalog.cl</a>
+                            </div>
+                        </div>
+
+                        <div class="footer__social">
+                            <a href="#" aria-label="Facebook" class="footer__social-icon"></a>
+                            <a href="#" aria-label="Instagram" class="footer__social-icon"></a>
+                            <a href="#" aria-label="X" class="footer__social-icon"></a>
+                            <a href="#" aria-label="LinkedIn" class="footer__social-icon"></a>
+                            <a href="#" aria-label="YouTube" class="footer__social-icon"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="footer__nav" aria-label="Enlaces principales">
+                    <div class="footer__nav-column">
+                        <a href="#nosotros" class="footer__nav-link">Sobre nosotros</a>
+                        <a href="#servicios" class="footer__nav-link">Soluciones</a>
+                        <a href="#industrias" class="footer__nav-link">Puertas industriales</a>
+                        <a href="#casos" class="footer__nav-link">Casos de éxito</a>
+                        <a href="#industrias" class="footer__nav-link">Industrias</a>
+                    </div>
+
+                    <div class="footer__nav-column">
+                        <a href="#contacto" class="footer__nav-link">Contacto</a>
+                        <a href="#" class="footer__nav-link">Soporte técnico</a>
+                        <a href="#" class="footer__nav-link">Catálogo</a>
+                        <a href="#" class="footer__nav-link">Blog</a>
+                        <a href="#" class="footer__nav-link">Garantía</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="footer__divider" aria-hidden="true"></div>
+
+                <div class="footer__credits">
+                    <p class="footer__copy">
+                        © 2025 Versalog. Todos los derechos reservados.
+                    </p>
+                    <div class="footer__legal">
+                        <a href="#" class="footer__link">Política de privacidad</a>
+                        <a href="#" class="footer__link">Términos de servicio</a>
+                        <a href="#" class="footer__link">Configuración de cookies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- MODAL 1: Contacto General (Hero CTA) -->
+<div class="modal-overlay js-modal" id="contact-modal" aria-hidden="true">
+    <div class="modal">
+        <button type="button" class="modal__close js-close-modal" aria-label="Cerrar">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+
+        <div class="modal__content">
+            <div class="modal__info">
+                <h2>¿Cómo podemos ayudarte?</h2>
+                <p>Déjanos tus datos y te contactaremos pronto</p>
+            </div>
+
+            <div class="modal__form-wrapper">
+                <form class="contact-form" id="contact-form-general">
+                    <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+                    
+                    <div class="form-field">
+                        <label for="general-name" class="form-label">Nombre</label>
+                        <input type="text" id="general-name" name="name" class="form-input" placeholder="Ingrese su nombre">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="general-phone" class="form-label">Teléfono</label>
+                        <input type="tel" id="general-phone" name="phone" class="form-input" placeholder="+56 9 1234 5678">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="general-email" class="form-label">Mail <span class="form-required">*</span></label>
+                        <input type="email" id="general-email" name="email" class="form-input" placeholder="correo@ejemplo.com" required>
+                    </div>
+
+                    <div class="form-field form-field--full">
+                        <label for="general-message" class="form-label">Mensaje</label>
+                        <textarea id="general-message" name="message" class="form-textarea" placeholder="¿En qué podemos ayudarte?" rows="4"></textarea>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="form-submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL 2: Cotización de Puertas -->
+<div class="modal-overlay js-modal" id="cotizacion-modal" aria-hidden="true">
+    <div class="modal">
+        <button type="button" class="modal__close js-close-modal" aria-label="Cerrar">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+
+        <div class="modal__content">
+            <div class="modal__info">
+                <h2>Cotizar Puerta o Andén</h2>
+                <p>Completa los datos de tu proyecto para una cotización precisa</p>
+            </div>
+
+            <div class="modal__form-wrapper">
+                <form class="contact-form" id="contact-form-cotizacion">
+                    <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+                    
+                    <div class="form-field">
+                        <label for="cot-name" class="form-label">Nombre</label>
+                        <input type="text" id="cot-name" name="name" class="form-input" placeholder="Ingrese su nombre">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="cot-phone" class="form-label">Teléfono</label>
+                        <input type="tel" id="cot-phone" name="phone" class="form-input" placeholder="+56 9 1234 5678">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="cot-email" class="form-label">Mail <span class="form-required">*</span></label>
+                        <input type="email" id="cot-email" name="email" class="form-input" placeholder="correo@ejemplo.com" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="cot-doors" class="form-label">Cantidad de puertas</label>
+                        <input type="number" id="cot-doors" name="doors" class="form-input" placeholder="1" min="1">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="cot-dimensions" class="form-label">Dimensiones del vano</label>
+                        <input type="text" id="cot-dimensions" name="dimensions" class="form-input" placeholder="Ej: 3m x 4m">
+                    </div>
+
+                    <div class="form-field form-field--full">
+                        <label for="cot-message" class="form-label">Otros datos</label>
+                        <textarea id="cot-message" name="message" class="form-textarea" placeholder="Cuéntenos más sobre su proyecto..." rows="4"></textarea>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="form-submit">Solicitar Cotización</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
