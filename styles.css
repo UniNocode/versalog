@@ -1,3 +1,7 @@
+* {
+  outline: 1px solid red;
+}
+
 /* =========================================
    1. Base & Tokens
    ========================================= */
@@ -1851,12 +1855,14 @@ body.modal-open {
     }
 }
 
-/* Section – Clientes (logos en carrusel infinito) */
+/* ==========================================================================
+   SECCIÓN: CLIENTES
+   ========================================================================== */
 
 .section--clients {
     display: flex;
     justify-content: center;
-    padding-block: var(--space-6);
+    padding-block: var(--space-7);
     background-color: var(--color-surface-primary);
 }
 
@@ -1870,10 +1876,8 @@ body.modal-open {
 
 /* Heading centrado */
 
-.clients__heading {
+.clients__heading h2{
     font-family: var(--font-sans);
-    font-weight: var(--font-weight-bold);
-    font-size: var(--font-size-md);
     text-align: center;
 }
 
@@ -2121,5 +2125,4 @@ body.modal-open {
         flex-direction: column;
         align-items: flex-start;
     }
-
 }
