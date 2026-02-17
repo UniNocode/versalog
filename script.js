@@ -212,3 +212,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+const track = document.querySelector(".clients__track");
+
+if (track && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  const items = Array.from(track.children);
+  
+  // Clonamos el contenido para el efecto infinito
+  items.forEach((item) => {
+    const clone = item.cloneNode(true);
+    clone.setAttribute("aria-hidden", "true");
+    track.appendChild(clone);
+  });
+
+  // Opcional: Si los logos son muy pocos para el ancho de pantalla, 
+  // podrías clonarlos una segunda vez aquí.
+}
+
+
